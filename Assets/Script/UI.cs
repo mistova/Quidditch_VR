@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class UI : MonoBehaviour
 {
-    public void RestartButton()
+    public void RestartButton()	//This function is called by restart button
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(0); // This load scene which index 0.
     }
 }
